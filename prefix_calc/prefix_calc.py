@@ -12,7 +12,7 @@ def eval_op(op, arg1, arg2):
     if op == '/':
         return arg1 / arg2
 
-# This implementation assumes that the input is correctly tockenized. 
+# This implementation assumes that the input is correctly tokenized. 
 # For example an input string like + 1 would result in an index out of bounds
 def eval_tokens(tokens, index):
     token = tokens[index]
