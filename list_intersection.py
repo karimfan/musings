@@ -1,3 +1,7 @@
+# naive implementation which sorts both lists. I missed playing with lists :)
+# An alternate solution could use a hash table. Store the elements of the
+# smaller list in a hash table. Then iterate on the larger one, lookup each
+# item in HT. If found add to intersection list.
 def list_intersection(first: list, second: list) -> list:
     intersection = []
 
